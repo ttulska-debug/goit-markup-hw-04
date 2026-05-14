@@ -1,0 +1,41 @@
+.portfolio-container {
+    width: auto;
+}
+
+.portfolio-list {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap:24px;
+    row-gap: 48px;
+}
+
+.portfolio-card {
+    background-color: #FFFFFF;
+    width: calc((100% - 48px) / 3);
+    text-align: left;
+}
+
+.portfolio-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #E7E9FC;
+    border-top: 0;
+}
+
+
+
+
+
+
+
+
+
+

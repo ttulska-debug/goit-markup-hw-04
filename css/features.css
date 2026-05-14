@@ -1,0 +1,17 @@
+.features-container {
+    display: flex;
+}
+
+.features-list {
+    display:flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.features-block {
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    gap:8px;
+    width: calc((100% - 72px)/ 4);
+}

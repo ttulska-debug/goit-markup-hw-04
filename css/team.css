@@ -1,0 +1,36 @@
+.team-block{
+    background-color: #F4F4FD;
+    margin: 0 auto;
+}
+
+.team-container {
+    width: auto;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    margin-top: 72px;
+}
+
+.team-card {
+    background: #FFFFFF;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+
+.team-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
