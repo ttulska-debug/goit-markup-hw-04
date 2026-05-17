@@ -6,7 +6,7 @@
     url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1440px auto;
+    background-size: 1440px;
 }
 
 .section.hero-section {
@@ -19,7 +19,6 @@
     flex-direction: column;
     gap:48px;
     align-items: center;
-
 }
 
 .hero-title {
@@ -45,4 +44,5 @@
 .button-hero:hover,
 .button-hero:focus {
     background-color: #404BBF;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
