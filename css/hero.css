@@ -6,7 +6,7 @@
     url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1440px;
+    max-width: 1440px;
 }
 
 .section.hero-section {
@@ -38,7 +38,9 @@
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .button-hero:hover,
